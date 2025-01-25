@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20%;
+}
+
+header img{
+    width: 110px;
+    border-radius: 20px;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header a:hover{
+    transform: scale(1.03);
+}
+
+address{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+address p{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 1.1rem;
+}
+
+address img{
+    width: 60px;
+}

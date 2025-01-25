@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(51, 50, 50);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    transform: scale(1.08);
+    transition: transform 0.2s ease-out;
+}
