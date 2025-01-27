@@ -21,7 +21,11 @@ function Footer(){
 
             <div className='copyrigth'>
                 <p>&copy; {new Date().getFullYear()}. Este modelo de portifólio está disponível para qualquer pessoa usar gratuitamente.Desde de que o nome do autor original 
-                    seja mencionado. <a rel='noopener noreferrer' href="#">Clique aqui para ler a documentação</a></p>
+                    seja mencionado. 
+                    <a rel='noopener noreferrer' target='_blank' href="https://github.com/lucas-gomes-santana/Portifolio-Project/blob/main/README.md">
+                        Clique aqui para ler a documentação.
+                    </a>
+                </p>
             </div>
         </footer>
     );
