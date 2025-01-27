@@ -10,7 +10,9 @@ interface ProjectsElements {
 
 function Projects( {imagem,titulo,descricao,link,tipoProjeto}: ProjectsElements){
     return(
-        <main>
+        
+        <div className='project' >
+
             <div className='card-projects'>
                 <h3>{titulo}</h3>
                 <h4>{tipoProjeto}</h4>
@@ -18,7 +20,9 @@ function Projects( {imagem,titulo,descricao,link,tipoProjeto}: ProjectsElements)
                 <p>{descricao}</p>
                 <a rel='noopener noreferrer' target='_blank' href={link}>Clique aqui para ver o projeto</a>
             </div>
-        </main>
+
+        </div>
+    
     );
 }
 

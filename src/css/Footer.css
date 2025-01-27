@@ -28,10 +28,51 @@ footer ul li{
 }
 
 .copyrigth{
-    margin-left: 150px;
+    margin-left: 140px;
     font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.copyrigth a{
+    margin-top: 10px;
 }
 
 .copyrigth a:hover{
     transform: scale(1.01);
+}
+
+
+@media (max-width: 1750px){
+
+    footer a{
+        font-size: 1rem;
+    }
+
+    .copyrigth {
+        margin-left: 130px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 920px){
+
+    footer ul{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 30px;
+    }
+
+    footer a{
+        font-size: 0.9rem;
+    }
+
+    footer img{
+        width: 40px;
+    }
+
+    .copyrigth{
+        margin-left: 180px;
+        font-size: 0.9rem;
+    }
+
 }

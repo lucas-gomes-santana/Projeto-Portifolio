@@ -1,4 +1,4 @@
-main{
+.project{
     width: 80%;
     margin-left: 10%;
     margin-top: 30px;
@@ -9,7 +9,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
 .card-projects h3{
@@ -46,4 +46,38 @@ main{
 
 .card-projects a:hover{
     background-color: aliceblue;
+}
+
+
+@media (max-width: 1750px){
+
+    .card-projects h3{
+        font-size: 1.75rem;
+    }
+
+    .card-projects h4{
+        font-size: 1.2rem;
+    }
+
+    .card-projects img{
+        width: 540px;
+        height: 370px;
+    }
+
+    .card-projects p{ 
+        font-size: 1.15rem; 
+    }
+
+    .card-projects a{
+        font-size: 1.07rem;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 1350px) {
+    
+    .card-projects img{
+        width: 480px;
+        height: 330px;
+    }
 }

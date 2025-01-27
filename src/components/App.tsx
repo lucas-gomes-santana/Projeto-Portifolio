@@ -20,7 +20,7 @@ function App() {
                     <Header MostrarPerfil={mostrarPerfil}/>
                 </>
             )}
-            <div className="content-container">
+            <main className="content-container">
                 {componenteAtivo === 'projects' && (
                     <div className="projects-container">
                         <Projects
@@ -46,7 +46,7 @@ function App() {
                             link="https://github.com/lucas-gomes-santana/Projeto-Pokedex"
                         />
                         <Projects
-                            imagem='/public/assets/Projeto-Portifolio.png'
+                            imagem='assets/Projeto-Portifolio.png'
                             titulo='Projeto Portifolio'
                             tipoProjeto='Projeto Pessoal'
                             descricao='Modelo de portifólio que eu mesmo criei usando o framework React'
@@ -55,7 +55,7 @@ function App() {
                     </div>
                 )}
                 {componenteAtivo === 'profile' && <Profile Voltar={mostrarProjetos} />}
-            </div>
+            </main>
 
             {componenteAtivo !== 'profile' && <Footer />}
         </>
