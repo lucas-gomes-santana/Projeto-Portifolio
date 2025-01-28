@@ -26,11 +26,3 @@ Ele pode ser usado para:</p>
   <li>Autorizo o uso deste modelo de portifólio para qualquer pessoa usar,desde que o nome do autor original (no caso eu) seja mencionado.Isto está definido na <a href="">licença deste projeto.</a></li>
   <li>Aceito contribuições neste projeto.Serei muito grato se alguém souber React e se voluntariar.</li>
 </ul>
-
-<hr>
-
-<h3>Como eu uso este portifólio?</h3>
-
-<p></p>
-
-<hr>
