@@ -15,7 +15,7 @@ function Profile(){
     }, []);
 
     return(
-        <section>
+        <section className='container-info'>
 
             <div className="my-foto">
                 <img id='animated-foto' src="/assets/Minha-Foto.jpg" alt="" />
@@ -32,8 +32,12 @@ function Profile(){
                 </div>
 
                 <nav>
-                    <a target='_blank' href="https://www.linkedin.com/in/lucas-gomes-santana-77892a343/"> <i className='fa-brands fa-linkedin'> </i> </a>
-                    <a target='_blank' href="https://github.com/lucas-gomes-santana"> <i className='fa-brands fa-github'></i> </a>
+                    <a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/lucas-gomes-santana-77892a343/">
+                      <i className='fa-brands fa-linkedin'> </i> 
+                    </a>
+                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/lucas-gomes-santana">
+                      <i className='fa-brands fa-github'></i> 
+                    </a>
                 </nav>
             </div>
 

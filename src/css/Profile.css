@@ -1,4 +1,4 @@
-section{
+.container-info{
     display: flex;
     align-items: center;
     gap: 25px;
@@ -11,7 +11,7 @@ section{
     overflow: hidden;
     width: 350px;
     height: 350px;
-  }
+}
   
   #animated-foto {
     width: 100%;
@@ -20,9 +20,8 @@ section{
     border-radius: 50%;
     position: absolute;
     animation: subirDescer 4s ease-in-out infinite;
-  }
+}
   
-
 
 @keyframes subirDescer{
     0%{

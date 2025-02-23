@@ -1,37 +1,50 @@
 import { useNavigate } from 'react-router-dom';
-
 import '../css/Projects.css';
 
+// Definindo o tipo das props que o componente espera
 interface ProjectElements {
-    image:string;
-    title:string;
-    description:string;
-    link:string;
-    projectType:string;
+    image: string;
+    title: string;
+    description: string;
+    link: string;
+    projectType: string;
 }
 
-function Projects({ image,title,description,link,projectType }: ProjectElements){
+interface ProjectsProps {
+    projects: ProjectElements[];
+}
 
+function Projects({ projects }: ProjectsProps) {
     const navigate = useNavigate();
 
     return (
-        <section>
+        <section className='main-container'>
             <h2>My Projects:</h2>
 
-            <div className="card-projects">
-                <h3>{ title }</h3>
-                <h4>{ projectType }</h4>
-                <img src={ image } alt="" />
-                <p>{ description }</p>
-                <a rel='noopener noreferrer' target='_blank' href={ link }>
-                    Get the Source Code
-                </a>
+            <div className="project-container">
+                {projects.map((project, index) => (
+
+                    <div className="card-projects" key={ index }>
+
+                        <h3>{project.title}</h3>
+                        <h4>{project.projectType}</h4>
+                        <img src={project.image} alt="" />
+                        <p>{project.description}</p>
+                        <a
+                            rel='noopener noreferrer'
+                            target='_blank'
+                            href={project.link}
+                        >
+                            Get the Source Code
+                        </a>
+
+                    </div>
+                ))}
             </div>
 
             <button onClick={() => navigate(-1)}>Return to Main Page</button>
         </section>
     );
-
 }
 
 export default Projects;
