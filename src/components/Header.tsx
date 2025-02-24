@@ -11,10 +11,10 @@ function Header() {
                 <h3>Lucas Gomes Santana Portifolio</h3>
             </div>
 
-            <nav>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contacts">Contacts</Link>
-                <Link to="/skills">Skills</Link>     
+            <nav className='container-links'>
+                <Link to="/projects">My Projects</Link>
+                <Link to="/contacts">Contact Me</Link>
+                <Link to="/skills">My Skills</Link>     
             </nav>
 
         </header>

@@ -31,7 +31,9 @@ function Profile(){
                     </p>
                 </div>
 
-                <nav>
+                <nav className='container-personal-icons'>
+                    <h4>Check my Linkedin and GitHub:</h4>
+
                     <a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/lucas-gomes-santana-77892a343/">
                       <i className='fa-brands fa-linkedin'> </i> 
                     </a>

@@ -32,7 +32,7 @@ function Contacts() {
                 <button type="submit">Send Email</button>
             </form>
 
-            <button onClick={() => navigate(-1)}>Return to Main Page</button>
+            <button className='return-button' onClick={() => navigate(-1)}>Return to Previous Page</button>
         </section>
     );
 }
