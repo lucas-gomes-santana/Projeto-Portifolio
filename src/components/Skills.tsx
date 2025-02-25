@@ -7,10 +7,10 @@ function Skills() {
     return (
         <section className='main-container-2'>
 
-            <h2>Here,you can see my skills with programming languages,frameworks and other programming tools.</h2>
+            <h3>Here,you can see my skills with programming languages,frameworks and other programming tools.</h3>
 
             <div className="container-skills">
-                <h3>Technologies I use and can work with:</h3>
+                <h2>Technologies I use and can work with:</h2>
 
                 <div className="container-images">
                     
